@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 900px;
+    padding: 15px;
+    background-color: #009688;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.container .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .head input {
+    width: 300px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.container .head input:focus {
+    outline: none;
+}
+
+.container .head .butns {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.container .head .butns span {
+    padding: 10px;
+    background-color: #80cbc4;
+    border-radius: 4px;
+    width: 86px;
+    text-align: center;
+    color: #eceff1;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container .head .butns span:hover {
+    background-color: #004d40;
+}
+
+.container .allResolts {
+    background-color: #e0e0e0;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.container .allResolts>span {
+    display: block;
+    background-color: #2196f3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.container .allResolts>span:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.container .allResolts>span span {
+    font-size: 20px;
+    color: green;
+}
+
+.container .allResolts .nothing {
+    color: #e0e0e0;
+    background-color: #b5b5b5;
+}
